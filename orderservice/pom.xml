@@ -1010,6 +1010,11 @@
                     <groupId>io.zipkin.reporter2</groupId>
                     <artifactId>zipkin-reporter-brave</artifactId>
                 </dependency>
+                <dependency>
+                  <groupId>co.elastic.clients</groupId>
+                  <artifactId>elasticsearch-java</artifactId>
+                  <version>9.0.0</version>
+                </dependency>
             </dependencies>
         </profile>
     </profiles>
